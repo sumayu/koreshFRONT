@@ -1,0 +1,34 @@
+
+/*
+  Здесь вы можете добавить свои глобальные CSS-правила,
+  если они не могут быть реализованы через Tailwind
+  или если вам нужно переопределить что-то глобально.
+*/
+
+/* Пример: Глобальные переменные для градиентного текста */
+.gradient-text {
+  background: linear-gradient(to right, #a78bfa, #f472b6); /* Пример фиолетово-розового градиента */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent; /* Fallback for browsers that don't support -webkit-text-fill-color */
+}
+
+/* Некоторые базовые стили для body, если нужно */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Стили для ссылок, которые должны быть кликабельными и иметь указатель */
+a {
+  cursor: pointer;
+}
+
+/* Сброс стилей для изображений */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
